@@ -1,4 +1,4 @@
-FROM phusion/passenger-nodejs
+FROM phusion/passenger-full
 MAINTAINER ben196888 <ben196888@gmail.com>
 RUN npm install -g nodemon autoreload express-generator webpack
 

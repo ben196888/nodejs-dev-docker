@@ -9,7 +9,7 @@ RUN npm install -g nodemon autoreload express-generator webpack
 RUN mkdir -p /etc/service/app
 ADD npmStart /etc/service/app/run
 
-EXPOSE 8000
+EXPOSE 80
 
 VOLUME ["/opt"]
 
